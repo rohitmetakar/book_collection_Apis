@@ -6,15 +6,15 @@
 # API endpoint : 
  #create for user authentication - 
  - Registration 
-    POST - http://localhost:4080/api/auth/userRegister   // { "userName": "roht",  "password": "Guddu@123"}
+   - POST - http://localhost:4080/api/auth/userRegister   // { "userName": "roht",  "password": "Guddu@123"}
  - Login :
-    POST - http://localhost:4080/api/auth/login    // { "userName": "rohit", "password": "Rohit@123" }
+   - POST - http://localhost:4080/api/auth/login    // { "userName": "rohit", "password": "Rohit@123" }
  - Book collection APIs:
-    POST - http://localhost:4080/api/auth/books    // {"title":"shivcharitrya","author":"xkmksd","year":"34234","genre":"iissssss"} and authToken
-    GET - http://localhost:4080/api/auth/getBooks  authToken
-    GET - http://localhost:4080/api/auth/getBooks/:id  // get by id and authToken
-    PUT - http://localhost:4080/api/auth/updateBook/:id  // update bok by id and authToken
-    DELETE - http://localhost:4080/api/auth/deleteBook/:id  // delete book by id and authToken
+   - POST - http://localhost:4080/api/auth/books    // {"title":"shivcharitrya","author":"xkmksd","year":"34234","genre":"iissssss"} and authToken
+   - GET - http://localhost:4080/api/auth/getBooks  authToken
+   - GET - http://localhost:4080/api/auth/getBooks/:id  // get by id and authToken
+   - PUT - http://localhost:4080/api/auth/updateBook/:id  // update bok by id and authToken
+   - DELETE - http://localhost:4080/api/auth/deleteBook/:id  // delete book by id and authToken
 # dependencies : 
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
