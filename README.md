@@ -23,10 +23,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.6.1"
 # .env file for adding :
-     PORT = 4011
+     PORT = 4080
      MONGO_URI = "mongodb+srv://rohitmetakar3112:bl1JDTKODKob3ICE@cluster0.iyzpdih.mongodb.net/video_data?retryWrites=true&w=majority&appName=Cluster0"
      JWT_SECRET=your_jwt_secret
-     EMAIL_USER=maddison53@ethereal.email
-     EMAIL_PASS=jn7jnAPss4f63QBp6D
 
     
