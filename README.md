@@ -2,7 +2,7 @@
   - Node.js
   - mongoDB
 # Set up Repo
- - clone code
+ - clone code git repo
 # API endpoint : 
  #create for user authentication - 
  - Registration 
