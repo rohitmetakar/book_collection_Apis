@@ -4,10 +4,10 @@
 # Set up Repo
  - clone code git repo
 # API endpoint : 
- #create for user authentication - 
- - Registration 
+
+ - Registration ( create for user authentication) 
    - POST - http://localhost:4080/api/auth/userRegister   // { "userName": "roht",  "password": "Guddu@123"}
- - Login :
+ - Login : ( create for user authentication)
    - POST - http://localhost:4080/api/auth/login    // { "userName": "rohit", "password": "Rohit@123" }
  - Book collection APIs:
    - POST - http://localhost:4080/api/auth/books    // {"title":"shivcharitrya","author":"xkmksd","year":"34234","genre":"iissssss"} and authToken
